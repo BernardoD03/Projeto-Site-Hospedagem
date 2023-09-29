@@ -1,0 +1,328 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.topo{
+    max-width: 100%;    
+    padding: 1%;
+    font-family: verdana;
+    position: relative; 
+}
+
+.topo a{
+    text-transform: uppercase;
+
+}
+
+.topo-home{
+    background: white;
+}
+
+.topo-tabela{
+    background: #2f86d6;
+}
+
+.topo-tabela a, .topo-tabela p{
+    color: white;
+}
+
+
+.logo{
+    margin-bottom: 0;
+    position: relative;
+}
+
+.acima{
+    margin-left: 26%;
+}
+
+.abaixo{
+    margin-right: 12%;
+}
+
+.texto-logo{
+    position: absolute;
+    left: 120%;  
+}
+
+.texto-logo1{
+    position: absolute;
+    left: 58%;
+}
+
+.logo-p{
+    position: absolute;
+    top: 24px;
+    width: 138%;
+}
+
+
+.links{
+    max-width: 100%;
+    position: absolute;
+    top: 19px;
+    transform: translateX(104%);
+}
+
+.links1 a{
+    color: black;
+}
+
+.links a{
+    font-size: 139%;
+    margin-right: 10px;
+}
+
+.texto-topo{
+    width: 90%;
+    position: relative;
+}
+
+.inline{
+    display: inline;
+}
+
+.inline-block{
+    display: inline-block;
+}
+
+.logo img{
+    width: 72px;
+}
+
+.azul{
+    color: #2f86d6;
+}
+
+.Formatação1, .link-anúncio a{
+    color: white;
+}
+
+.Formatação{
+    font-family: Arial;
+    width: 100%;
+}
+
+.banner{
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    background: #2f86d6;
+}
+
+.img-banner{
+    width: 40%;
+    padding: 1% 8% 1% 4%;
+
+}
+
+.texto-banner{
+    padding: 6% 1% 6% 17%;
+    width: 34%;
+}
+
+.Formatação h2{
+    font-size: 160%;
+}
+
+.Formatação p{
+    font-size: 125%;
+}
+
+.anúncio{
+    text-align: justify;
+    max-width: 90%;
+}
+
+.anúncio1{
+
+    background: black;
+    position: relative;
+}
+
+.anúncio2{
+    background: #2f86d6;
+    padding: 2% 5%;
+
+}
+
+.texto-anúncio1{
+    padding: 1% 17%
+}
+
+.texto-anúncio2{
+    padding: 1% 5% 1% 14%;
+}
+
+.link-anúncio{
+    padding: 1% ;
+    font-size: 125%;
+}
+
+.link-anúncio1{
+    position: absolute;
+    top: 48px;
+    transform: translateX(30%);
+    background-color: #2f86d6;
+}
+
+.link-anúncio2{
+    background-color: black;
+    margin-right: 43px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.Informações{
+    max-width: 90%;
+    padding: 4%;
+    text-align: center;
+}
+
+.Informações img{
+    width: 25%;
+}
+
+.configurar, .servidores, .suporte{
+    width: 25%;
+}
+
+.texto{
+    width: 70%;
+    margin: 20px auto;
+    font-size: 150%;
+}
+
+.contato{
+    max-width: 100%;
+    padding: 3%;
+    font-family: verdana;
+    position: relative;  
+    text-align: center;
+}
+
+
+.planos, .tabela{
+    max-width: 100%;
+    padding: 2%;
+}
+
+.planos{
+    background-color: #ece9e99f;
+}
+
+.planos img{
+    width: 60%;
+}
+
+table{
+    width: 70%;
+    margin: 30px auto;
+    text-align: center;
+    border-collapse: collapse;
+    font-family: Verdana;
+}
+
+
+.planos table{
+    box-shadow: 0px 3px 9px 9px rgba(47, 134, 214, 1);
+}
+
+.borda-tabela{
+    background-color: #89c3fa;
+    border: 1px solid white;
+    padding: 1%;
+}
+
+
+.borda-tabela p{
+    color: gray;
+    padding-top: 5%;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.borda-tabela h2{
+    width: 90%;
+    color: black;
+    font-weight: bold;
+    font-size: 150%;
+}
+
+.funções{
+    width: 35%;
+}
+
+th{
+    background-color:white; 
+}
+
+th p{
+    color: #838383;
+    width: 35%;
+    margin: 0 auto;
+}
+
+td{
+    padding: 1%;
+    font-size: 20px;
+    border: 1px solid #c9c7c78e;
+}
+
+caption{
+    padding-bottom: 5%;
+    font-size: 40px;
+    font-family: arial;
+}
+
+.coluna1{
+    background-color: #cddcdf;
+}
+
+.coluna2{
+    background-color:white;
+}
+
+.rodapé{
+    font-family: sans-serif;
+    max-width: 100%;
+    font-size: 130%;
+    font-family: verdana;
+    text-align: center;
+}
+
+.rodapé1{
+    background-color: #ece9e99f; 
+    border: 1px solid #ece9e99f; 
+}
+
+.rodapé2{
+    padding: 3%;
+    border: 1px solid #2f86d6; 
+    background-color: #2f86d6;
+}
+
+.rodapé2 .logo{
+    text-align: center;
+    padding-bottom: 1%;
+}
+
+.texto-rodapé1{    
+    width: 100%;
+    margin: 0 auto;
+}
+
+.texto-rodapé1, .texto-rodapé2{
+    font-size: 18px;
+}
+
+.logo1 p{
+    color: #2f86d6;
+}
+
+.logo2 p{
+    color: white;
+}
